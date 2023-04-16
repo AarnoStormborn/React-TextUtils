@@ -44,8 +44,8 @@ function App() {
     <Alert alert={alert}/>
     <div className="container my-3">
       <Routes>
-        <Route exact path="/" element={<TextForm heading="Input" mode={mode} showAlert={showAlert} />} />
-        <Route exact path="/about" element={<About creatorName="AarnoStormborn" purpose="Learning ReactJS" createdDate="Today" mode={mode} /> } />
+        <Route exact path="React-TextUtils/" element={<TextForm heading="Input" mode={mode} showAlert={showAlert} />} />
+        <Route exact path="React-TextUtils/about" element={<About creatorName="AarnoStormborn" purpose="Learning ReactJS" createdDate="Today" mode={mode} /> } />
       {/*  
        */}
       </Routes>
