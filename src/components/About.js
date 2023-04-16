@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Accordian.css'
 
 export default function About(props) {
 
